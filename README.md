@@ -8,6 +8,7 @@
 
 | 项目 | 一句话 | 技术栈 |
 |---|---|---|
+| [**central-ac-fulfillment**](https://github.com/yougeqiu/central-ac-fulfillment) | 中央空调双域工单履约平台（多源采集→时间线投影→统一任务引擎→通知 outbox，55+ 篇架构文档）| NestJS · Vue 3 · Prisma |
 | [**local-data-erp**](https://github.com/yougeqiu/local-data-erp) | 多租户数据采集与管控平台（React + FastAPI，插件式采集框架 + 数据池 + 凭据加密，附带 RPA 桌面控制台）| React · FastAPI · PostgreSQL · Tauri |
 | [**inteltalk-voice-agent**](https://github.com/yougeqiu/inteltalk-voice-agent) | FreeSWITCH 智能外呼平台（三场景三模式对话引擎、VAD/EOU、LLM 双通道降级、ESL 断线重连）| FreeSWITCH · asyncio · Vue 3 |
 | [**biz-report-dashboard**](https://github.com/yougeqiu/biz-report-dashboard) | 经营日报看板（FastAPI + ECharts SPA + LLM 异步洞察）| FastAPI · ECharts · DeepSeek |
@@ -15,7 +16,6 @@
 
 ### 📐 案例研究（不开源的业务系统）
 
-- [**中央空调双域履约平台**](https://github.com/yougeqiu/case-studies/blob/main/central-ac-platform.md) —— 原始证据+投影架构、时间线驱动的统一任务引擎、通知 outbox、CI/CD 无人值守、55 篇架构文档
 - [**微信数据链 + RPA 闭环**](https://github.com/yougeqiu/case-studies/blob/main/wechat-data-pipeline.md) —— Frida 逆向数据库解密、WAL mtime 轮询实时监控（稳态 CPU 0%）、AI 编排 + RPA 受控动作
 
 ### 🛠️ 技术面板
